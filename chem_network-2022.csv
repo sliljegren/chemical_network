@@ -1,0 +1,116 @@
+Reaction type,Reactant 1,Reactant 2,Product 1,Product 2,Product 3,min temp,max temp,alpha,beta,gamma,Source1,Source2,Source3
+Ion-Neutral,CII,CO2I,COI,COII,0,10, 41000,1.1e-09,0.0,0.0,umist12,slud18,cher09
+Charge Exchange,CII,C2OI,CI,C2OII,0,10, 41000,1e-09,-0.5,0.0,umist12,-,-
+Radiative Association,CII,OI,COII,0,0,10, 13900,3.14e-18,-0.15,68.0,umist12,slud18,cher09
+Ion-Neutral,CII,O2I,COII,OI,0,10, 41000,3.42e-10,0.0,0.0,umist12,slud18,cher09
+Ion-Neutral,CII,O2I,COI,OII,0,10, 41000,4.54e-10,0.0,0.0,umist12,slud18,cher09
+Charge Exchange,CII,SI,CI,SII,0,10, 4999,5e-11,0.0,0.0,umist12,slud18,cher09
+Charge Exchange,CII,SOI,CI,SOII,0,10, 41000,2.6e-10,-0.5,0.0,umist12,slud18,-
+Ion-Neutral,CII,SOI,COII,SI,0,10, 41000,2.6e-10,-0.5,0.0,umist12,slud18,cher09
+Ion-Neutral,CII,SOI,COI,SII,0,10, 41000,2.6e-10,-0.5,0.0,umist12,slud18,cher09
+Charge Exchange,CII,SiI,CI,SiII,0,10, 41000,2.1e-09,0.0,0.0,umist12,slud18,cher09
+Ion-Neutral,CII,SiOI,COI,SiII,0,10, 41000,5.4e-10,-0.5,0.0,umist12,slud18,cher09
+Charge Exchange,CII,SiSI,CI,SiSII,0,10, 41000,2.3e-09,-0.5,0.0,umist12,slud18,-
+Radiative Association,CI,CII,C2II,0,0,10, 41000,4.01e-18,0.17,101.5,umist12,slud18,-
+Radiative Association,CI,CI,C2I,0,0,10, 41000,4.36e-18,0.35,161.3,umist12,slud18,cher09
+Charge Exchange,CI,COII,CII,COI,0,10, 41000,1.1e-10,0.0,0.0,umist12,slud18,cher09
+Neutral-Neutral,CI,COI,C2I,OI,0,1934, 41000,2.94e-11,0.5,58025.0,umist12,slud18,cher09
+other,CI,CO2I,COI,COI,0,10, 20000,1e-15,0.0,0.0,-,slud18,cher09
+Charge Exchange,CI,C2II,CII,C2I,0,10, 41000,1.1e-10,0.0,0.0,umist12,slud18,cher09
+Neutral-Neutral,CI,C2OI,COI,C2I,0,10, 300,2e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,CI,HeII,CII,HeI,0,10, 300,6.3e-15,0.75,0.0,umist12,slud18,-
+Radiative Association,CI,OII,COII,0,0,10,1000,1.34E-17,0.0464,0.0,from override file
+Radiative Association,CI,OII,COII,0,0,1000,4000,1.1E-17,0.11,0.0,from override file
+Radiative Association,CI,OII,COII,0,0,4000,10000,9.1E-19,0.8181,0.0,from override file
+Radiative Association,CI,OI,COI,0,0,10,500,9.74E-18,0.705,0.0,from override file
+Radiative Association,CI,OI,COI,0,0,500,4000,1.48E-17,0.541,0.0,from override file
+Radiative Association,CI,OI,COI,0,0,4000,20000,1.1E-16,-0.0105,0.0,from override file
+Charge Exchange,CI,O2II,CII,O2I,0,10, 41000,5.2e-11,0.0,0.0,umist12,slud18,-
+Ion-Neutral,CI,O2II,COII,OI,0,10, 41000,5.2e-11,0.0,0.0,umist12,slud18,-
+Neutral-Neutral,CI,O2I,COI,OI,0,10, 8000,5.56e-11,0.41,-26.9,umist12,slud18,cher09
+Neutral-Neutral,CI,SOI,COI,SI,0,10, 300,3.5e-11,0.0,0.0,umist12,slud18,cher09
+Ion-Neutral,CI,SiOII,COI,SiII,0,10, 41000,1e-09,0.0,0.0,umist12,slud18,cher09
+other,CI,SiOI,COI,SiI,0,10, 20000,1e-16,0.0,0.0,-,slud18,cher09
+Charge Exchange,COII,CO2I,COI,CO2II,0,10, 41000,1e-09,0.0,0.0,umist12,-,-
+Charge Exchange,COII,C2I,COI,C2II,0,10, 41000,8.4e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,COII,OI,COI,OII,0,10, 41000,1.4e-10,0.0,0.0,umist12,slud18,cher09
+Charge Exchange,COII,O2I,COI,O2II,0,10, 41000,1.2e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,COII,SI,COI,SII,0,10, 41000,1.1e-09,0.0,0.0,umist12,slud18,cher09
+other,COI,HeII,CII,HeI,OI,10, 20000,1.6e-09,0.0,0.0,-,slud18,cher09
+Ion-Neutral,COI,HeII,CII,OI,0,10, 41000,1.6e-09,0.0,0.0,umist12,-,-
+Charge Exchange,COI,OII,COII,OI,0,2000, 10000,4.9e-12,0.5,4580.0,umist12,slud18,cher09
+Neutral-Neutral,COI,O2I,CO2I,OI,0,300, 6000,5.99e-12,0.0,24075.0,umist12,slud18,-
+other,COI,O2I,CO2I,O2I,0,10, 20000,4.2e-12,0,24053.0,-,-,cher09
+other,COI,SI,CI,SOI,0,10, 20000,1e-16,0.0,0.0,-,slud18,cher09
+Neutral-Neutral,COI,SiI,CI,SiOI,0,2720, 5190,1.3e-09,0.0,34513.0,umist12,slud18,cher09
+Ion-Neutral,COI,SiOII,CO2I,SiII,0,10, 41000,7.9e-10,0.0,0.0,umist12,slud18,cher09
+other,COI,SiOI,CO2I,SiI,0,10, 20000,1e-16,0.0,0.0,-,slud18,cher09
+Ion-Neutral,CO2II,OI,COI,O2II,0,10, 41000,1.64e-10,0.0,0.0,umist12,-,-
+Charge Exchange,CO2II,OI,CO2I,OII,0,10, 41000,9.62e-11,0.0,0.0,umist12,-,-
+Charge Exchange,CO2II,O2I,CO2I,O2II,0,10, 41000,5.3e-11,0.0,0.0,umist12,-,-
+Ion-Neutral,CO2I,HeII,CII,O2I,0,10, 41000,4e-11,0.0,0.0,umist12,-,-
+Ion-Neutral,CO2I,HeII,CI,O2II,0,10, 41000,1.1e-11,0.0,0.0,umist12,-,-
+other,CO2I,HeII,COII,HeI,OI,10, 20000,8.7e-10,0,0,-,-,cher09
+Ion-Neutral,CO2I,HeII,COII,OI,0,10, 41000,8.7e-10,0.0,0.0,umist12,-,-
+Ion-Neutral,CO2I,HeII,COI,OII,0,10, 41000,1e-10,0.0,0.0,umist12,-,-
+Charge Exchange,CO2I,HeII,CO2II,HeI,0,10, 41000,1.21e-10,0.0,0.0,umist12,-,-
+Ion-Neutral,CO2I,OII,COI,O2II,0,10, 41000,9.4e-10,0.0,0.0,umist12,slud18,-
+Neutral-Neutral,CO2I,OI,COI,O2I,0,300, 6000,2.46e-11,0.0,26567.0,umist12,slud18,cher09
+Neutral-Neutral,CO2I,SiI,COI,SiOI,0,300, 3160,2.72e-11,0.0,282.0,umist12,slud18,cher09
+Ion-Neutral,C2II,OI,CI,COII,0,10, 41000,3.1e-10,0.0,0.0,umist12,slud18,cher09
+Ion-Neutral,C2II,O2I,COI,COII,0,10, 41000,8e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,C2II,SI,C2I,SII,0,10, 41000,5.8e-10,0.0,0.0,umist12,slud18,-
+other,C2I,HeII,CI,CII,HeI,10, 20000,1.6e-09,0.0,0.0,-,slud18,cher09
+Ion-Neutral,C2I,HeII,CI,CII,0,10, 41000,1.6e-09,0.0,0.0,umist12,-,-
+Charge Exchange,C2I,HeII,C2II,HeI,0,10, 41000,5e-10,0.0,0.0,umist12,slud18,-
+Ion-Neutral,C2I,OII,CI,COII,0,10, 41000,4.8e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,C2I,OII,C2II,OI,0,10, 41000,4.8e-10,0.0,0.0,umist12,slud18,cher09
+Neutral-Neutral,C2I,OI,CI,COI,0,10, 8000,2e-10,-0.12,0.0,umist12,slud18,cher09
+Ion-Neutral,C2I,O2II,COI,COII,0,10, 41000,4.1e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,C2I,O2II,C2II,O2I,0,10, 41000,4.1e-10,0.0,0.0,umist12,slud18,-
+Neutral-Neutral,C2I,O2I,COI,COI,0,298, 1300,1.5e-11,0.0,4300.0,umist12,slud18,-
+Ion-Neutral,C2OI,HeII,CII,COI,0,10, 41000,1e-09,-0.5,0.0,umist12,-,-
+Neutral-Neutral,C2OI,OI,COI,COI,0,295, 295,8.59e-11,0.0,0.0,umist12,slud18,-
+other,HeII,OI,HeI,OII,0,10, 20000,7.58724e-15,-0.0465226,-4.33566,-,slud18,-
+other,HeII,O2I,HeI,OI,OII,10, 20000,1.1e-09,0.0,0.0,-,slud18,cher09
+Charge Exchange,HeII,O2I,HeI,O2II,0,10, 41000,3.3e-11,0.0,0.0,umist12,slud18,-
+Ion-Neutral,HeII,O2I,OI,OII,0,10, 41000,1.1e-09,0.0,0.0,umist12,-,-
+other,HeII,SOI,HeI,OII,SI,10, 20000,8.3e-10,-0.5,0.0,-,slud18,-
+other,HeII,SOI,HeI,OI,SII,10, 20000,8.3e-10,-0.5,0.0,-,slud18,-
+Ion-Neutral,HeII,SOI,OII,SI,0,10, 41000,8.3e-10,-0.5,0.0,umist12,-,-
+Ion-Neutral,HeII,SOI,OI,SII,0,10, 41000,8.3e-10,-0.5,0.0,umist12,-,-
+other,HeII,S2I,HeI,SI,SII,10, 20000,2e-09,0.0,0.0,-,slud18,-
+Ion-Neutral,HeII,S2I,SI,SII,0,10, 41000,2e-09,0.0,0.0,umist12,-,-
+Charge Exchange,HeII,SiI,HeI,SiII,0,10, 41000,3.3e-09,0.0,0.0,umist12,slud18,-
+other,HeII,SiOI,HeI,OII,SiI,10, 20000,8.6e-10,-0.5,0.0,-,slud18,cher09
+other,HeII,SiOI,HeI,OI,SiII,10, 20000,8.6e-10,-0.5,0.0,-,slud18,cher09
+Ion-Neutral,HeII,SiOI,OII,SiI,0,10, 41000,8.6e-10,-0.5,0.0,umist12,-,-
+Ion-Neutral,HeII,SiOI,OI,SiII,0,10, 41000,8.6e-10,-0.5,0.0,umist12,-,-
+other,HeII,SiSI,HeI,SII,SiI,10, 20000,3.8e-09,-0.5,0.0,-,slud18,-
+other,HeII,SiSI,HeI,SI,SiII,10, 20000,3.8e-09,-0.5,0.0,-,slud18,-
+Ion-Neutral,HeII,SiSI,SII,SiI,0,10, 41000,3.8e-09,-0.5,0.0,umist12,-,-
+Ion-Neutral,HeII,SiSI,SI,SiII,0,10, 41000,3.8e-09,-0.5,0.0,umist12,-,-
+Charge Exchange,OII,O2I,OI,O2II,0,10, 41000,1.9e-11,0.0,0.0,umist12,slud18,-
+Radiative Association,OI,OI,O2I,0,0,10, 300,4.9e-20,1.58,0.0,umist12,slud18,cher09
+other,OI,SI,SOI,0,0,10, 20000,1.114e-19,0.2761,1297.9,-,slud18,cher09
+Neutral-Neutral,OI,SOI,O2I,SI,0,92, 300,6.6e-13,0.0,2760.0,umist12,slud18,cher09
+Neutral-Neutral,OI,S2I,SI,SOI,0,298, 2500,1.7e-11,0.0,0.0,umist12,slud18,-
+Radiative Association,OI,SiII,SiOII,0,0,10, 14700,9.22e-19,-0.08,-21.2,umist12,slud18,cher09
+Radiative Association,OI,SiI,SiOI,0,0,300,14700,3.24e-17,0.31,-21.2,from override file
+Ion-Neutral,OI,SiOII,O2I,SiII,0,10, 41000,2e-10,0.0,0.0,umist12,slud18,cher09
+Ion-Neutral,O2II,SI,OI,SOII,0,10, 41000,5.4e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,O2II,SI,O2I,SII,0,10, 41000,5.4e-10,0.0,0.0,umist12,slud18,-
+Charge Exchange,O2II,SiI,O2I,SiII,0,10, 41000,1.6e-09,0.0,0.0,umist12,slud18,-
+Ion-Neutral,O2I,SII,OI,SOII,0,10, 41000,1.5e-11,0.0,0.0,umist12,slud18,cher09
+Neutral-Neutral,O2I,SI,OI,SOI,0,200, 3460,1.76e-12,0.81,-30.8,umist12,slud18,cher09
+Neutral-Neutral,O2I,SiI,OI,SiOI,0,10, 300,1.72e-10,-0.53,17.0,umist12,slud18,cher09
+Ion-Neutral,O2I,SiSII,SOII,SiOI,0,10, 41000,6.23e-11,0.0,0.0,umist12,slud18,-
+Ion-Neutral,O2I,SiSII,SOI,SiOII,0,10, 41000,2.67e-11,0.0,0.0,umist12,slud18,-
+Charge Exchange,SII,SiI,SI,SiII,0,10, 41000,1.6e-09,0.0,0.0,umist12,slud18,cher09
+Charge Exchange,SII,SiSI,SI,SiSII,0,10, 41000,3.2e-09,-0.5,0.0,umist12,slud18,-
+other,SI,SI,S2I,0,0,10, 20000,1.374e-19,0.3339,-78.801,-,slud18,cher09
+Neutral-Neutral,SI,SOI,OI,S2I,0,383, 41000,1.73e-11,0.5,11500.0,umist12,slud18,cher09
+other,SI,SiI,SiSI,0,0,10, 20000,1.047e-16,0.301,66.093,-,slud18,-
+Ion-Neutral,SI,SiOII,SOI,SiII,0,10, 41000,1e-09,0.0,0.0,umist12,slud18,-
+other,SI,SiSI,S2I,SiI,0,10, 20000,5.75e-11,0.1,200.0,-,slud18,cher09
+other,S2I,SiI,SI,SiSI,0,10, 20000,7e-11,0.0,0.0,-,slud18,cher09

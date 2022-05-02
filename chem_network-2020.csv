@@ -1,0 +1,45 @@
+Reaction type,Reactant 1,Reactant 2,Product 1,Product 2,Product 3,min temp,max temp,alpha,beta,gamma,Source1,Source2,Source3
+Ion-Neutral,CII,CO2I,COI,COII,0,10,41000,1.1E-09,0,0,umist12,slud18,cher09
+Charge Exchange,CII,C2OI,CI,C2OII,0,10,41000,1E-09,-0.5,0,umist12,-,-
+Radiative Association,CII,OI,COII,0,0,10,1000,1.34E−17,0.0464,33,-,-,-
+Radiative Association,CII,OI,COII,0,0,1000,4000,1.1E-17,0.11,-121.5,-,-,-
+Radiative Association,CII,OI,COII,0,0,4000,10000,9.1E-19,0.8181,-2671,-,-,-
+Ion-Neutral,CII,O2I,COII,OI,0,10,41000,3.42E-10,0,0,umist12,slud18,cher09
+Ion-Neutral,CII,O2I,COI,OII,0,10,41000,4.54E-10,0,0,umist12,slud18,cher09
+Radiative Association,CI,CII,C2II,0,0,10,41000,4.01E-18,0.17,101.5,umist12,slud18,-
+Radiative Association,CI,CI,C2I,0,0,10,41000,4.36E-18,0.35,161.3,umist12,slud18,cher09
+Charge Exchange,CI,COII,CII,COI,0,10,41000,1.1E-10,0,0,umist12,slud18,cher09
+Neutral-Neutral,CI,COI,C2I,OI,0,1934,41000,2.94E-11,0.5,58025,umist12,slud18,cher09
+other,CI,CO2I,COI,COI,0,10,20000,1E-15,0,0,-,slud18,cher09
+Charge Exchange,CI,C2II,CII,C2I,0,10,41000,1.1E-10,0,0,umist12,slud18,cher09
+Neutral-Neutral,CI,C2OI,COI,C2I,0,10,300,2E-10,0,0,umist12,slud18,-
+Radiative Association,CI,OII,COII,0,0,2000,10000,5E-10,-3.7,800,umist12,slud18,cher09
+Radiative Association,CI,OI,COI,0,0,10,500,9.74E-18,0.705,136,-,-,-
+Radiative Association,CI,OI,COI,0,0,500,4000,1.48E-17,0.541,330,-,-,-
+Radiative Association,CI,OI,COI,0,0,4000,20000,1.1E-16,-0.0105,2750,-,-,-
+Charge Exchange,CI,O2II,CII,O2I,0,10,41000,5.2E-11,0,0,umist12,slud18,-
+Ion-Neutral,CI,O2II,COII,OI,0,10,41000,5.2E-11,0,0,umist12,slud18,-
+Neutral-Neutral,CI,O2I,COI,OI,0,10,8000,5.56E-11,0.41,-26.9,umist12,slud18,cher09
+Charge Exchange,COII,CO2I,COI,CO2II,0,10,41000,1E-09,0,0,umist12,-,-
+Charge Exchange,COII,C2I,COI,C2II,0,10,41000,8.4E-10,0,0,umist12,slud18,-
+Charge Exchange,COII,OI,COI,OII,0,10,41000,1.4E-10,0,0,umist12,slud18,cher09
+Charge Exchange,COII,O2I,COI,O2II,0,10,41000,1.2E-10,0,0,umist12,slud18,-
+Charge Exchange,COI,OII,COII,OI,0,2000,10000,4.9E-12,0.5,4580,umist12,slud18,cher09
+other,COI,OI,CI,O2I,0,10,20000,1E-16,0,0,-,slud18,cher09
+Neutral-Neutral,COI,O2I,CO2I,OI,0,300,6000,5.99E-12,0,24075,umist12,slud18,-
+Ion-Neutral,CO2II,OI,COI,O2II,0,10,41000,1.64E-10,0,0,umist12,-,-
+Charge Exchange,CO2II,OI,CO2I,OII,0,10,41000,9.62E-11,0,0,umist12,-,-
+Charge Exchange,CO2II,O2I,CO2I,O2II,0,10,41000,5.3E-11,0,0,umist12,-,-
+Ion-Neutral,CO2I,OII,COI,O2II,0,10,41000,9.4E-10,0,0,umist12,slud18,-
+Neutral-Neutral,CO2I,OI,COI,O2I,0,300,6000,2.46E-11,0,26567,umist12,slud18,cher09
+Ion-Neutral,C2II,OI,CI,COII,0,10,41000,3.1E-10,0,0,umist12,slud18,cher09
+Ion-Neutral,C2II,O2I,COI,COII,0,10,41000,8E-10,0,0,umist12,slud18,-
+Ion-Neutral,C2I,OII,CI,COII,0,10,41000,4.8E-10,0,0,umist12,slud18,-
+Charge Exchange,C2I,OII,C2II,OI,0,10,41000,4.8E-10,0,0,umist12,slud18,cher09
+Neutral-Neutral,C2I,OI,CI,COI,0,10,8000,2E-10,-0.12,0,umist12,slud18,cher09
+Ion-Neutral,C2I,O2II,COI,COII,0,10,41000,4.1E-10,0,0,umist12,slud18,-
+Charge Exchange,C2I,O2II,C2II,O2I,0,10,41000,4.1E-10,0,0,umist12,slud18,-
+Neutral-Neutral,C2I,O2I,COI,COI,0,298,1300,1.5E-11,0,4300,umist12,slud18,-
+Neutral-Neutral,C2OI,OI,COI,COI,0,295,295,8.59E-11,0,0,umist12,slud18,-
+Charge Exchange,OII,O2I,OI,O2II,0,10,41000,1.9E-11,0,0,umist12,slud18,-
+Radiative Association,OI,OI,O2I,0,0,10,300,4.9E-20,1.58,0,umist12,slud18,cher09
